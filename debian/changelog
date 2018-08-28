@@ -1,0 +1,5 @@
+pygsm (1.1.1-1) bionic; urgency=low
+
+  * Initial release.
+
+ -- KERN packaging <packaging@kernsuite.info>  Wed, 29 Aug 2018 00:30:05 +0200

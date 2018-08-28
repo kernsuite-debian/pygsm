@@ -1,0 +1,37 @@
+Source: pygsm
+Section: python
+Priority: optional
+Maintainer: KERN packaging <packaging@kernsuite.info>
+Build-Depends: debhelper (>=9),
+               dh-python,
+               python-all,
+               python-setuptools,
+               python-numpy,
+               python-scipy,
+               python-astropy,
+               python-h5py,
+               python-healpy,
+               python-matplotlib,
+               python-ephem
+Standards-Version: 3.9.8
+Homepage: https://github.com/telegraphic/PyGSM
+X-Python-Version: >= 2.6
+
+Package: python-pygsm
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${python:Depends}
+Description:  Global Sky Model (GSM) for the radio sky between 10 MHz - 5 THz
+ PyGSM is a Python interface for the Global Sky Model (GSM2008) of
+ Oliveira-Costa et. al., (2008), and recently Zheng et. al., (2016), GSM2016.
+ The GSMs are all-sky maps in Healpix format of diffuse Galactic radio emission
+ from 10 MHz to 94 GHz (GSM2008) and 10 MHz to 5 THz (GSM2016).
+ .
+ This is not a wrapper of the original code, it is a python-based equivalent
+ that provides a useful API which has some additional features and advantages,
+ such as healpy integration for imaging. The GSM2008 and GSM2016 classes
+ provided here are designed to have the same API (i.e. function names & usage).
+ Instead of the original ASCII DAT files that contain the principal component
+ analysis (PCA), from the GSM2008, data are stored in HDF5, which can be quickly
+ read into memory, and takes up less space to boot. Similarly, the GSM2016 data
+ is converted into HDF5.

@@ -1,0 +1,6 @@
+.debhelper/
+files
+python-pygsm.postinst.debhelper
+python-pygsm.prerm.debhelper
+python-pygsm.substvars
+python-pygsm/

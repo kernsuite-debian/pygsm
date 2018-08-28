@@ -1,0 +1,28 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: pygsm
+Source: https://github.com/telegraphic/PyGSM
+
+Files:     debian/*
+Copyright: Gijs molenaar <gijs@pythonic.nl>
+License:   MIT
+
+Files:     .gitignore
+           README.md
+           docs/pygsm_quickstart.ipynb
+           pygsm/__init__.py
+           pygsm/pygsm.py
+           setup.cfg
+           setup.py
+           tests/test_gsm.py
+           tests/test_gsm_observer.py
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+#----------------------------------------------------------------------------
+# huge files   (skipped):
+#         tests/gsm_fortran_test_data.h5
+#         pygsm/gsm_components.h5
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
